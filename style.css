@@ -1,0 +1,52 @@
+html {
+	background-color: #282828;
+	overscroll-behavior: none;
+}
+
+body {
+	font-family: "Roboto Mono", monospace;
+	color: #fbf1c7;
+	background-image: url("sky.jpg");
+	margin: 0;
+}
+
+.titlebar {
+	border-bottom-style: dotted;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	justify-content: center;
+	background-color: #1d2021;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.titlebar h1 {
+	margin: 0 0;
+	padding: 1rem;
+}
+
+
+.content {
+	margin-top: 75px;
+	padding-top: 1.5rem;
+}
+
+.centersheet {
+	border-color: #fbf1c7; 
+	border-style: solid 3px;
+	z-index: 1;
+	background-color: #1d2021cc;
+	/*background-color: #1d2021; */
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	height: 100vh;
+	padding: 1rem;
+}
+
+.centersheet p {
+  margin: 0;
+}
